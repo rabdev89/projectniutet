@@ -1,0 +1,100 @@
+body{
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: column;
+}
+
+*{
+font-family: 'Courier New', Courier, monospace;
+box-sizing: border-box;
+}
+
+form{
+    width: 500px;
+    border: 2px solid beige;
+    padding: 20px;
+    background: lightslategray;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    border: 2px solid beige;
+    width: 95%;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 7px;
+}
+
+label{
+    color: whitesmoke;
+    font-size: 14px;
+    padding: 7px;
+}
+button{
+    float: right;
+    background:black ;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 7px;
+    margin-right: 8px;
+    border: none;
+}
+button:hover{
+    opacity: .7;    
+}
+.error {
+    background: rgb(197, 93, 79);
+    color: black;
+    padding: 7px;
+    width:80%;
+    border-radius: 7px;
+    margin: 30px auto;
+}
+
+.success {
+    background: rgb(49, 154, 215);
+    color: black;
+    padding: 7px;
+    width:80%;
+    border-radius: 7px;
+    margin: 30px auto;
+}
+h1{
+    text-align: center;
+    color: bisque;
+}
+a{
+    float: right;
+    background:black ;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 7px;
+    margin-right: 8px;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover{
+   opacity: .7; 
+}
+
+.ka{
+    font-size: 10px;
+    display: inline-block;
+    padding:  10px;
+    color: white;
+    text-decoration: none;
+    color: white;
+}
+
+.ka:hover{
+   text-decoration: none;
+}
